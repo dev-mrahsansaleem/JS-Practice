@@ -15,7 +15,14 @@ section {
     border: 2px solid green;
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+}
+
+.row {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .component {
